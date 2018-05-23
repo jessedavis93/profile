@@ -18,27 +18,29 @@ body {
   border-style: solid;
   border-color: cadetblue;
   border-radius: 5px;
-  box-shadow: 3px 3px 3px darkgrey;
+  box-shadow: 1px 1px 1px darkgrey;
 }
 
-.btn-cadetblue {
+.btn-cadetblue, td > a {
   opacity: 0.8;
-  background: cadetblue;
-  color: white;
+  color: cadetblue;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
-  border-radius: 5px;
   text-decoration: none;
   border-style: solid;
-  border-color: whitesmoke;
-  box-shadow: 2px, 2px, 2px, black;
+  border-color: cadetblue;
 }
 
 .btn-cadetblue:hover {
-  opacity: 1.0;
   color: whitesmoke;
+  background-color: cadetblue;
+}
+
+td > a:hover {
+  color: whitesmoke;
+  background-color: cadetblue;
 }
 
 h1 {
@@ -52,12 +54,6 @@ h4 {
   opacity: 0.7;
 }
 
-
-li > a {
-  color: lightgrey;
-  font-weight: 200;
-  font-size: 48px;
-}
 
 a {
   color: grey;
@@ -73,19 +69,26 @@ li {
   padding-right: 40px;
 }
 
-td > img {
-  height: 320px;
-  width: 220px;
-  border-radius: 5px;
-  margin: 40px;
-
+li > a {
+  color: lightgrey;
+  font-weight: 200;
+  font-size: 48px;
 }
+
 
 img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
 }
+
+td > img {
+  height: 320px;
+  width: 220px;
+  border-radius: 5px;
+  margin: 40px;
+}
+
 
 p {
   font-weight: 150;
