@@ -1,0 +1,97 @@
+body {
+  background-color: whitesmoke;
+  color: grey;
+  font-family: montserrat, sans-serif;
+}
+
+.container {
+  width: 650px;
+  margin: 15px auto;
+}
+
+.card {
+  padding: 15px;
+  padding-bottom: 8px;
+  background: white;
+  margin-bottom: 20px;
+  text-align: center;
+  border-style: solid;
+  border-color: cadetblue;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px darkgrey;
+}
+
+.btn-cadetblue {
+  opacity: 0.8;
+  background: cadetblue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: whitesmoke;
+  box-shadow: 2px, 2px, 2px, black;
+}
+
+.btn-cadetblue:hover {
+  opacity: 1.0;
+  color: whitesmoke;
+}
+
+h1 {
+  color: cadetblue;
+  font-weight: 520;
+  opacity: 0.8;
+}
+
+h4 {
+  font-weight: 800;
+  opacity: 0.7;
+}
+
+
+li > a {
+  color: lightgrey;
+  font-weight: 200;
+  font-size: 48px;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+li {
+  display: inline;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+td > img {
+  height: 320px;
+  width: 220px;
+  border-radius: 5px;
+  margin: 40px;
+
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+p {
+  font-weight: 150;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+
+
